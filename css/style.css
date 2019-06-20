@@ -29,16 +29,29 @@ table {
 	border-collapse: collapse;
 	border-spacing: 0;
 }
-#navbar {
+
+.navbar {
     position: fixed;
     top: 0px;
-    width: 100%;
+    width: 100vw;
+    height: 70px;
 	background-color: black;
-	z-index: 99;
+    z-index: 98;
+    font-size: 22px;
+    color: white;
+    vertical-align: middle;
+    columns: 2;
+    padding: 17px 30px 17px 30px;
 }​
-.navbar-item {
-	margin: 0;
+
+.navbar .navtitle {
+    float: left;
 }
+
+.navbar .navmenu {
+    float: right;
+}
+
 #banner{
     background: url(../img/banner-bg.jpg) no-repeat center top;
     background-size: cover;

@@ -23,7 +23,7 @@ a {
 
 a:hover {
     text-decoration: none;
-    color: grey;
+    color: #ed238f;
 }
 
 section {
@@ -68,9 +68,10 @@ table {
 }
 
 #banner{
-    background: url(../img/banner-bg.jpg) no-repeat center top;
+    background: url(../img/ctos.jpg) no-repeat center top;
     background-size: cover;
     min-height: 630px;
+    font-family: 'Gochi Hand', cursive;
 }
 .bg-color{
     background-color: RGBA(0, 0, 0, 0.61);
@@ -78,9 +79,9 @@ table {
     height: 100vh;
 }
 #banner h2{
-    font-family: 'Satisfy', sans-serif;
+    font-family: 'Gochi Hand', cursive;
     font-size: 45px;
-    color: #FFB03B;
+    color: #ed238f;
 }
 #banner p{
     font-family: 'PT Sans', sans-serif;
@@ -91,10 +92,10 @@ table {
     padding: 60px 0px;
 }
 .logo-name{
-    font-family: 'Satisfy', sans-serif;
+    font-family: 'Gochi Hand', cursive;
     font-size: 65px;
     margin-top: 140px;
-    color: #FFB03B;
+    color: #ed238f;
 }
 .sidenav {
     height: 100%;
@@ -138,9 +139,9 @@ table {
 }
 
 .header-h {
-    color: #FFB03B;
+    color: #ed238f;
     font-size: 46px;
-    font-family: 'Satisfy', sans-serif;
+    font-family: 'Gochi Hand', sans-serif;
     font-weight: 300;
 }
 .header-p {
@@ -236,7 +237,7 @@ table {
     height: auto;
 }
 .contacts-btn {
-    background-color:  #FFB03B !important;
+    background-color:  #ed238f !important;
     color: #ffffff !important;
     width: 170px;
     height: 54px;
@@ -290,8 +291,8 @@ table {
 
 
 .heading{
-    font-family: 'Satisfy', sans-serif;
-    color: #FFB03B;
+    font-family: 'Gochi Hand', sans-serif;
+    color: #ed238f;
     font-size: 24px;
 }
 .marb-35{
@@ -302,7 +303,7 @@ table {
 }
 .details-list ul li i {
     margin-right: 10px;
-    color: #ffb03b;
+    color: #ed238f;
 }
 #about img
 {
@@ -330,13 +331,13 @@ table {
     overflow: auto;
 }
 .content-holder h2 {
-    color: #FFB03B;
+    color: #ed238f;
     font-size: 32px;
     padding-bottom: 15px;
-    font-family: 'Satisfy', sans-serif;
+    font-family: 'Gochi Hand', sans-serif;
 }
 .content-holder address strong {
-    color: #FFB03B;
+    color: #ed238f;
     padding: 10px 0px;
 }
 .details-text p {
@@ -346,7 +347,7 @@ table {
     font-weight: 300;
 }
 .btn-read-more {
-    background: #FFB03B;
+    background: #ed238f;
     padding: 7px 19px;
     font-family: 'Roboto', sans-serif;
     font-size: 12px;
@@ -376,12 +377,12 @@ table {
     font-family: Montserrat,arial;
     text-transform: uppercase;
     letter-spacing: 1px;
-    color: #FFB03B;
+    color: #ed238f;
 }
 .menu-restaurant .menu-line {
     position: absolute;
     bottom: 6px;
-    border-bottom: 1px dotted rgba(0,0,0,.3);
+    border-bottom: 1px dotted rgba(3, 3, 3, 0.3);
     margin-left: .6rem;
     margin-right: .6rem;
 }
@@ -404,9 +405,9 @@ table {
 }
 
 #menu-flters ul li a.active, #menu-flters ul li a:hover {
-    background: #FFB03B;
+    background: #ed238f;
     color: #fff;
-    border: 1px solid #FFB03B;
+    border: 1px solid #ed238f;
 }
 #menu-flters ul li {
     display: inline-block;
@@ -435,6 +436,10 @@ table {
     color: #fff;
 }
 
+.footer a:hover {
+    color: #ed238f;
+}
+
 .footer .footer-top {
     padding-top: 9rem;
     padding-bottom: 5rem;
@@ -447,9 +452,9 @@ table {
 }
 .footer .widget-title{
     padding-bottom: 20px;
-    font-family: 'Satisfy', sans-serif;
+    font-family: 'Gochi Hand', sans-serif;
     font-size: 44px;
-    color: #FFB03B;
+    color: #ed238f;
 }
 .footer .widget, .footer address {
     color: #999;

@@ -27,7 +27,9 @@ a:hover {
 }
 
 section {
-    height:100vh;
+    /* this causes odd effects when adjusting height of window
+	   because dont think it is responsive.
+	height:100vh; */
 }
 ol, ul {
 	list-style: none;
@@ -65,6 +67,14 @@ table {
 
 .navbar .navmenu {
     float: right;
+}
+
+.navmenu {
+	cursor: pointer;
+}
+
+#current-page {
+	color: #ed238f;
 }
 
 #banner{
@@ -110,13 +120,22 @@ table {
     transition: 0.5s;
 }
 .sidenav a {
-    padding: 8px 8px 8px 32px;
+    padding: 8px 8px 8px 64px;
     text-decoration: none;
     font-size: 25px;
     color: #818181;
     display: block;
     transition: 0.3s
 }
+
+.sidenav h5 {
+	padding: 8px 8px 8px 32px;
+	font-size: 20px;
+    color: white;
+    display: block;
+    transition: 0.3s
+}
+
 .sidenav a:hover, .offcanvas a:focus{
     color: #f1f1f1;
 }
@@ -309,9 +328,10 @@ table {
 {
     border: 5px solid rgb(255, 176, 59);
     border-radius: 2px;
+	display: inline-block;
 }
 #event{
-    background: url('../img/res02.jpg') no-repeat;
+    background-color: rgba(221, 221, 221, 0.63);
     background-size: cover;
 }
 .left-images img {
@@ -470,7 +490,7 @@ table {
     display: inline-block;
 }
 #contact{
-    background-color: rgba(221, 221, 221, 0.33);
+    background-color: rgba(221, 221, 221, 0.66);
 }
 .footer .social-list a {
     font-size: 32px;

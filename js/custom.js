@@ -1,5 +1,5 @@
 function openNav() {
-  document.getElementById("mySidenav").style.width = "250px";
+  document.getElementById("mySidenav").style.width = "350px";
 }
 
 function closeNav() {
@@ -7,6 +7,9 @@ function closeNav() {
 }
 
 
+/*
+this shit was fucking up the links
+tbh idk what the point even is of this part????
 
 (function($) {
 
@@ -45,3 +48,5 @@ function closeNav() {
 	});
 
 })(jQuery);
+
+*/

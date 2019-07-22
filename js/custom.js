@@ -6,6 +6,15 @@ function closeNav() {
   document.getElementById("mySidenav").style.width = "0";
 }
 
+/*
+	Scroll user to top of document when function is called.
+	
+	This function is the onclick="" function for the navtitle element.
+*/
+function scrollToTop() {
+	document.body.scrollTop = 0; // For Safari
+    document.documentElement.scrollTop = 0; // For Chrome, Firefox, IE and Opera
+}
 
 /*
 this shit was fucking up the links

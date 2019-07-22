@@ -5,6 +5,11 @@
     Author URL: https://bootstrapmade.com
 */
 
+/* apply smooth scrolling to entire document because it looks prettier */
+html {
+	scroll-behavior: smooth;
+}
+
 body {
 	font-size: 15px;
     line-height: 1.52;
@@ -47,6 +52,13 @@ table {
 	border-spacing: 0;
 }
 
+/* spacer for top of page where navbar is covering section padding
+*/
+.top-of-page-spacer {
+	height: 30px;
+}
+
+
 .navbar {
     position: fixed;
     top: 0px;
@@ -59,19 +71,43 @@ table {
     vertical-align: middle;
     columns: 2;
     padding: 17px 50px 17px 30px;
+	
+	margin: 0;
 }​
 
-.navbar .navtitle {
+/* want nav title on left side of nav bar
+   is also a button to bring user back to top of page
+
+	***NOTE***
+
+this is not in use, just left in because this is the rule that the navbar title element is supposed
+to be using. Just doesn't work for some reason.......
+
+The real rule for this class is below
+*/
+.navbar .nav-title {
+	color: red;
     float: left;
-}
-
-.navbar .navmenu {
-    float: right;
-}
-
-.navmenu {
 	cursor: pointer;
 }
+
+/* See above
+
+   ***NOTE*** renamed this class from .nav-title to 'nav-whydoescsshatemyclassnames'
+   cause for some reason the webpage cannnot recognize the above class
+*/
+.nav-whydoescsshatemyclassnames {
+	cursor: pointer;
+}
+
+/* want nav title on right side of nav bar
+   note: not sure why .navbar is also included in the two css rules below
+*/
+.navbar .nav-menu {
+    float: right;
+	cursor: pointer;
+}
+
 
 #current-page {
 	color: #ed238f;
@@ -386,65 +422,28 @@ table {
 #Container .mix{
     display: none;
 }
-.menu-restaurant{
-    width: 50%;
-    float: left;
-    padding: 15px;
-    position: relative;
-}
-.menu-restaurant .menu-title {
-    float: left;
-    font-family: Montserrat,arial;
-    text-transform: uppercase;
-    letter-spacing: 1px;
-    color: #ed238f;
-}
-.menu-restaurant .menu-line {
-    position: absolute;
-    bottom: 6px;
-    border-bottom: 1px dotted rgba(3, 3, 3, 0.3);
-    margin-left: .6rem;
-    margin-right: .6rem;
-}
-.menu-restaurant .menu-price {
-    font-weight: 600;
-    position: absolute;
-    right: 0;
-    top: 0;
-}
-.menu-restaurant .menu-subtitle {
-    display: block;
-    float: left;
-    color: #B1B1B1;
-    font-family: Satisfy,'Open Sans',arial;
-    font-size: 1.2rem;
-}
-.menu-restaurant span.clearfix {
-    position: relative;
-    display: block;
+
+
+/* Sponsors section stuff */
+
+.tier-one img {
+	/*max-height: 100px;*/
+	max-width: 200px;
 }
 
-#menu-flters ul li a.active, #menu-flters ul li a:hover {
-    background: #ed238f;
-    color: #fff;
-    border: 1px solid #ed238f;
+.tier-two img {
+	max-width: 150px;
 }
-#menu-flters ul li {
-    display: inline-block;
-    color: #fff;
-    text-transform: capitalize;
-    letter-spacing: 1px;
-    margin-bottom: 40px;
+
+.tier-three img {
+	max-width: 100px;
 }
-#menu-flters ul li a {
-    padding: 10px 20px;
-    font-size: 14px;
-    color: #565656;
-    border-radius: 0px;
-    border: 1px solid #BBBBBB;
-    text-decoration: none;
-    cursor: pointer;
+
+.tier-four img {
+	max-width: 50px;
 }
+
+/* end sponsors section */
 
 .footer {
     width: 100%;
